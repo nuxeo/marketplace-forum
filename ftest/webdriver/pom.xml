@@ -85,7 +85,7 @@
               <goal>verify</goal>
             </goals>
             <configuration>
-              <argLine>-Dlog4j.configuration=${file.uri.prefix}${basedir}\src\main\resources\log4j.xml
+              <argLine>-Dlog4j.configuration=${file.uri.prefix}${basedir}/src/main/resources/log4j.xml
                 -Dnuxeo.log.dir=${project.build.directory}
                 -DconnectPassword=${connect.password}
                 ${it.failsafe.argLine}
