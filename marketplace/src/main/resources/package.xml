@@ -2,7 +2,7 @@
 <package type="addon" name="nuxeo-forum" version="@VERSION@">
   <title>Forum</title>
   <description>
-    <p>Put here an HTML description of your Nuxeo Package.</p>
+    <p>Nuxeo Forum enables users to create forums in your Nuxeo Platform instance to discuss topics. Topics can be moderated so trusted users can oversee the content and the direction of discussions. The access to a forum is defined by permissions.</p>
   </description>
   <!-- <home-page>http://doc.nuxeo.com/</home-page> -->
   <vendor>nuxeo</vendor>
