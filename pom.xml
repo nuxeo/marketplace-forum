@@ -11,7 +11,7 @@
   <artifactId>marketplace-forum-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Utility POM for Smart Search Nuxeo Package</name>
+  <name>Utility POM for Forum Package</name>
 
   <modules>
     <module>marketplace</module>
