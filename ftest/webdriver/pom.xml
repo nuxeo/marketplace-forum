@@ -48,10 +48,9 @@
     </dependency>
     <dependency>
       <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-distribution-tomcat</artifactId>
-      <classifier>nuxeo-cap</classifier>
+      <artifactId>nuxeo-server-tomcat</artifactId>
       <type>zip</type>
-      <scope>provided</scope>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.nuxeo.ecm.distribution</groupId>
@@ -61,7 +60,7 @@
     <dependency>
       <groupId>org.nuxeo.marketplace.forum</groupId>
       <artifactId>marketplace-forum</artifactId>
-	  <type>zip</type>
+      <type>zip</type>
       <scope>test</scope>
     </dependency>
   </dependencies>
