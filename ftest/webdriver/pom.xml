@@ -58,6 +58,12 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>org.nuxeo.ecm.distribution</groupId>
+      <artifactId>nuxeo-marketplace-jsf-ui</artifactId>
+      <type>zip</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>org.nuxeo.marketplace.forum</groupId>
       <artifactId>marketplace-forum</artifactId>
       <type>zip</type>
@@ -130,7 +136,7 @@
       </plugin>
     </plugins>
   </build>
-  
+
   <profiles>
     <profile>
       <id>tomcat</id>
